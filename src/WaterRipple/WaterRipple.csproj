@@ -74,8 +74,10 @@
     <Reference Include="System.Drawing" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\BitmapUtility.cs" />
     <Compile Include="Core\FastBitmap.cs" />
-    <Compile Include="Core\WaterRipple.cs" />
+    <Compile Include="WaterRippleCpu.cs" />
+    <Compile Include="WaterRippleGpu.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>
   <ItemGroup>
